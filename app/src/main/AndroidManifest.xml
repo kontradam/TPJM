@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TPJM"
+        tools:targetApi="31">
+
+        <!-- STARTOWA aktywność to SplashActivity (jeden intent-filter MAIN/LAUNCHER) -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Pozostałe aktywności - już bez filtera LAUNCHER -->
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".TranslateActivity" /> 
+        <activity android:name=".LessonActivity" />
+        <activity android:name=".ChooseLevelActivity" />
+        <activity android:name=".ChooseLessonActivity" />
+
+    </application>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

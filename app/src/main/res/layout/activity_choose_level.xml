@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnA1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poziom A1"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnA2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poziom A2"
+        android:textSize="20sp"/>	
+
+    <Button
+        android:id="@+id/btnB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poziom B1"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poziom B2"
+        android:textSize="20sp"/>
+</LinearLayout>

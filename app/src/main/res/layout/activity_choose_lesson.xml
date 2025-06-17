@@ -1,0 +1,39 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/lessonTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wybierz lekcję"
+            android:textSize="22sp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnLesson1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lekcja 1"
+            android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 2" 				android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 3" 				android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 4" 				android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 5" 				android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 6" 				android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 7" 				android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 8" 				android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 9" 				android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLesson10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lekcja 10" 			android:layout_marginBottom="12dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

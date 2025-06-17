@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:src="@drawable/pjm"
+        android:scaleType="fitCenter"/>
+</LinearLayout>

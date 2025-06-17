@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAFAFA"
+    android:padding="32dp">
+
+    <ImageView
+        android:id="@+id/homeLogo"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:src="@drawable/logo_home"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"/>
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Słownik"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tłumacz"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnLearn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ucz się"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyjście"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+</LinearLayout>
